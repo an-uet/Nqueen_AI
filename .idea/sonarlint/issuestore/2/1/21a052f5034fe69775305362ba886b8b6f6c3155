@@ -1,0 +1,26 @@
+
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(şñ„ıÿÿÿÿ
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(½òª¶ıÿÿÿÿ
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(‡üÁ”
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(½òª¶ıÿÿÿÿ
+T	java:S106’"9Replace this use of System.out or System.err by a logger.(½Úı‚ıÿÿÿÿ
+M	java:S106'"9Replace this use of System.out or System.err by a logger.(°•Ş
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+T	java:S106€"9Replace this use of System.out or System.err by a logger.(å…Ğêøÿÿÿÿ
+[	java:S106¤"9Replace this use of System.out or System.err by a logger.(ÎŞÿÿÿÿÿ8¾‡¨»‹/
+N	java:S106="9Replace this use of System.out or System.err by a logger.(Öğ€
+m
+java:S3776O"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ûİøÿÿÿÿ
+N	java:S106”"9Replace this use of System.out or System.err by a logger.(¶§¤D
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(ÚŒù²ùÿÿÿÿ
+T	java:S106£"9Replace this use of System.out or System.err by a logger.(Öª¤¿ùÿÿÿÿ
+O	java:S106‹"9Replace this use of System.out or System.err by a logger.(Â°—ˆ
+4
+java:S2119"Save and re-use this "Random".(âÅÙÜ
+T	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(©õøßúÿÿÿÿ
+N	java:S1067"9Replace this use of System.out or System.err by a logger.(İ£—é
+W	java:S125š"<This block of commented-out lines of code should be removed.(¨ÍÚøÿÿÿÿ
+O	java:S106¢"9Replace this use of System.out or System.err by a logger.(®ã‹É
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(±Øóôüÿÿÿÿ
+O	java:S106¡"9Replace this use of System.out or System.err by a logger.(÷éÓî
