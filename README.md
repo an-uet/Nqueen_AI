@@ -8,9 +8,9 @@ Cho một bàn cờ kích thước n x n. Chúng ta cần đặt n (n>=4) quân 
                                  
 Phân tích và thiết kế thuật toán
 Để giải quyết bài toán, ta cần lưu trữ, sắp xếp các quân hậu sao cho:
-•	Không có 2 quân hậu nào nằm trên một hàng
-•	Không có 2 quân hậu nằm trên một cột
-•	Không có 2 quân hậu nào nằm trên một đường chéo
+- Không có 2 quân hậu nào nằm trên một hàng
+- Không có 2 quân hậu nằm trên một cột
+- Không có 2 quân hậu nào nằm trên một đường chéo
 Thông thường, chúng ta sẽ lưu bàn cờ dưới dạng mảng 2 chiều. Nhưng trong bài toán N-Queen, cách lưu trữ này tỏ ra thiếu hiệu quả và tốn dữ liệu. Một các lưu trữ khác như sau: Tạo một mảng một chiều gồm N phần tử. Mỗi phần tử sẽ đại diện cho một quân hậu. Trong đó, chỉ số của mỗi phần tử được coi là chỉ số cột của quân hậu, giá trị của phần tử được coi là chỉ số hàng của quân hậu.
 Ví dụ ta có mảng
 Queen = [1,2,6,5,4,5,3,0]
@@ -18,12 +18,9 @@ Queen[0] = 1 tức là trên bàn cờ sẽ có 1 quân hậu ở vị trí hàn
 
 Với cách lưu trữ này, ta có thể giảm ô số cần lưu trữ và loại đi rất nhiều trường hợp xếp hậu sai vị trí (chỉ số không trùng nên chỉ số cột sẽ không trùng).
 Việc kiểm tra va chạm của các quân hậu như sau
-•	Nếu hai quân hậu X1 X2 cùng hàng :
-X1.getRow() = X2.getRow()
-•	Nếu hai quân hậu X1 X2 cùng cột :
-X1.getColumn() = X2.getColumn()
-•	Nếu hai quân hậu X1 X2 cùng đường chéo:
-abs(X1.getRow() – X2.getRow()) = abs(X1.getColumn() – X2.getColumn())
+- Nếu hai quân hậu X1 X2 cùng hàng : X1.getRow() = X2.getRow()
+- Nếu hai quân hậu X1 X2 cùng cột : X1.getColumn() = X2.getColumn()
+- Nếu hai quân hậu X1 X2 cùng đường chéo: abs(X1.getRow() – X2.getRow()) = abs(X1.getColumn() – X2.getColumn())
 
 
 Ý tưởng của hill-climbing là từ trạng thái ban đầu về trạng thái đích bằng thực hiện các nước đi hợp hệ rồi chọn trạng thái tiếp theo tốt nhất nhờ một hàm chi phí.
